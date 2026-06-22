@@ -19,7 +19,8 @@ namespace ResourcesGetter
         static readonly Dictionary<string, string> GameResources = GetResources(GameResourcesFolder);
         public static void Run()
         {
-            Copy(GameResources, key => Path.Combine(BackupResourcesFolder, key));
+            if (!Directory.EnumerateFiles(BackupResourcesFolder).Any())
+                Copy(GameResources, key => Path.Combine(BackupResourcesFolder, key));
             Copy(ModResources, key => GameResources[key]);
         }
 
