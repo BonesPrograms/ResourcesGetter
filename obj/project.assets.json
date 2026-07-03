@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\VietnamWarModLab\\ResourcesGetter\\ResourcesGetter.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\C#\\VietnamWarModLab\\ResourcesGetter\\ResourcesGetter.csproj",
       "projectName": "ResourcesGetter",
-      "projectPath": "C:\\Users\\user\\Desktop\\VietnamWarModLab\\ResourcesGetter\\ResourcesGetter.csproj",
+      "projectPath": "C:\\Users\\user\\Desktop\\C#\\VietnamWarModLab\\ResourcesGetter\\ResourcesGetter.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\VietnamWarModLab\\ResourcesGetter\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\C#\\VietnamWarModLab\\ResourcesGetter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
